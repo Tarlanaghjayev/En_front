@@ -1,0 +1,25 @@
+#logos{
+    background-color: #f6f8f9;
+    .row{
+        .logos_line{
+            ul{
+                list-style-type: none;
+                margin-top: 25px;
+                li{
+                    display: inline-block;
+                    a{
+                        img{
+                            height: auto;
+                            max-width: 87%;
+                            vertical-align: middle;
+                            &:hover{
+                                opacity: 0.8;
+                                transition: box-shadow 0.2s ease-out 0s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

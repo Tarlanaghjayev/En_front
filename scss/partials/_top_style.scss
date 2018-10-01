@@ -1,0 +1,28 @@
+// @import 'partials/variables';
+
+
+// h2{
+//     text-align: center;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+//     font-size: 33px;
+//     font-weight: 500;
+// }
+// span{
+//     width: 80px;
+//     height: 3px;
+//     background: $primary-c;
+//     display: inline-block;
+//     margin-left: 42%;
+//     position: relative;
+//     &::before{
+//         width: 48px;
+//         content: " ";
+//         height: 3px;
+//         background: $primary-c;
+//         display: inline-block;
+//         margin-left: 42%;
+//         position: absolute;
+//         top: 5px;
+//         right: 16px;
+// }

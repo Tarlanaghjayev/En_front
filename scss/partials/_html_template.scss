@@ -1,0 +1,52 @@
+#html_template{
+    background-image: url(../img/background/cta-background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: 100px;
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        background: rgba(31, 31, 31, 0.78);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+    }
+    .row{
+        color: #fff;
+        .text{
+            z-index: 6;
+        h2{
+            font-weight: 600;
+            font-size: 34px;
+        }
+        p{
+            font-size: 16px;
+            max-width: 700px;
+            text-align: center;
+            font-weight: 500;
+        }
+        a{
+            transition: all 0.3s ease 0s;
+            background: #0b60a9;
+            color: #fff;
+            font-size: 14px;
+            line-height: 23px;
+            padding: 10px 35px;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 500;
+            margin-left: 40%;
+            text-decoration: none;
+            &:hover{
+                background: #fff;
+                color: black;
+            }
+        }}
+    }
+}

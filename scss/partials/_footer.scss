@@ -1,0 +1,250 @@
+footer{
+    background-color: #2e363a;
+    z-index: -3;
+    .container{
+        .row{
+            .about_us{
+                h3{
+                    color: #fff;
+                    padding-top: 41px;
+                    font-weight: 400;
+                }
+                span{
+                    display: inline-block;
+                    height: 1px;
+                    background: #ffffff;
+                    width: 50px;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                }
+                .normal_p{
+                    color: #ccc;
+                }
+            }
+            .pop_news{
+                h3{
+                    color: #fff;
+                    padding-top: 41px;
+                    font-weight: 400;
+                }
+                span{
+                    display: inline-block;
+                    height: 1px;
+                    background: #ffffff;
+                    width: 50px;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                }
+                ul{
+                    list-style-type: none;
+                    li{
+                        .pop_text{
+                            color: #ccc;
+                            margin-bottom: -18px;
+                            h4{
+                                a{
+                                    color: #ccc;
+                                    font-size: 18px;
+                                    text-align: left;
+                                    margin-left: -39px;
+                                    text-decoration: none;
+                                    &:hover{
+                                        color: #ffffff;
+                                    }
+                                }
+                            }
+                            .tarix{
+                                font-style: italic;
+                                color: #bbc0d2;
+                                text-align: left;
+                                margin-left: -40px;
+                                margin-top: -9px;
+                            }
+                        }
+                    }
+                }
+            }
+            .category{
+                h3{
+                    color: #fff;
+                    padding-top: 41px;
+                    font-weight: 400;
+                }
+                span{
+                    display: inline-block;
+                    height: 1px;
+                    background: #ffffff;
+                    width: 50px;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                }
+                ul{
+                    list-style-type: none;
+                    margin-left: -36px;
+                    li{
+                        margin-bottom: 7px;
+                        &:hover{
+                            color: #ffffff;
+                            text-decoration: none;
+                        }
+                        &::before{
+                            color: #fff;
+                            content: "\f105";
+                            display: inline-block;
+                            font-family: 'Font Awesome 5 Free';
+                            font-size: 13px;
+                            left: 3px;
+                            top: 2px;
+                            font-weight: 900;
+                        }
+                        .corp{
+                            color: #ccc;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .novbe{
+                margin-top: 113px;
+                ul{
+                    list-style-type: none;
+                    li{
+                        color: #ccc;
+                        margin-bottom: 7px;
+                    }
+                }
+            }
+            .umumi_gallery{
+                
+                h3{
+                    color: #fff;
+                    padding-top: 41px;
+                    font-weight: 400;
+                }
+                span{
+                    display: inline-block;
+                    height: 1px;
+                    background: #ffffff;
+                    width: 50px;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                }
+                .gallery{
+                    .gallery_icon{
+
+                        img{
+                            width: 128px;
+                            margin-bottom: 11px;
+                            z-index: -2;
+                            &:hover{
+                                opacity: 0.7;
+                            }
+                        
+                        }
+                    }
+                }
+            }
+        }
+        .row{
+            .listt{
+                ul{
+                    list-style-type: none;
+                    margin-left: -65px;
+                    margin-top: 73px;
+                    li{
+                        display: inline-block;
+                        color: #ddd;
+                        padding: 6px 0;
+                        margin-left: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .social_links{
+                ul{
+    list-style-type: none;
+    margin-top: 71px;
+    margin-left: 174px;
+                    li{
+                        display: inline-block;
+                        margin-left: 7px;
+
+                        &:hover{
+                            &::before{background: #3b5998;
+                        }}
+                        &::before{
+                            content: "";
+                            border: 1px solid #fff;
+                            width: 40px;
+                            height: 40px;
+                            display: inline-block;
+                            line-height: 5px;
+                            position: relative;
+                            text-align: center;
+                            border-radius: 100%;
+                            z-index: 2;
+                        }
+                        a{
+                            text-decoration: none;
+                            &::before{
+                                color: #bdbdbd;
+                                margin-left: 13px;
+                                content: "\f39e";
+                                z-index: 3;
+                                display: block;
+                                font-family: 'Font Awesome 5 Brands';
+                                font-weight: 400;
+                                line-height: 2.3;
+                                font-size: 15px;
+                                position: absolute;
+                                top: 73px;
+                            }
+                            &[href*="twitter.com"]:before{
+                                content: "\f099";
+                            }
+                            &[href*="linkedin.com"]:before{
+                                content: "\f0e1";
+                            }
+                            &[href*="instagram.com"]:before{
+                                content: "\f16d";
+                            }
+                            &[href*="vimeo.com"]:before{
+                                content: "\f194";
+                            }
+                            &[href*="dribbble.com"]:before{
+                                content: "\f17d";
+                            }
+                            a:hover{
+                                background: #3b5998;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .row{
+        .copy_right{
+            p{
+                color: #fff;
+                a{
+                    color: #ccc;
+                    text-decoration: none;
+                }
+            }
+        }
+        .biz_lina{
+            float: right;
+            p{
+                color: #fff;
+                a{
+                    color: #ccc;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}

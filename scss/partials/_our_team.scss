@@ -1,0 +1,136 @@
+@import 'partials/variables';
+#our_team{
+    .container{
+        .row{
+            h2{
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 33px;
+                font-weight: 500;
+            }
+            .span{
+                width: 80px;
+                height: 3px;
+                background: $primary-c;
+                display: inline-block;
+                margin-left: 42%;
+                position: relative;
+                &::before{
+                    width: 48px;
+                    content: " ";
+                    height: 3px;
+                    background: $primary-c;
+                    display: inline-block;
+                    margin-left: 42%;
+                    position: absolute;
+                    top: 5px;
+                    right: 16px;
+                }
+            }
+            .pp{
+                font-size: 16px;
+                max-width: 700px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 68px;            
+            }
+        }
+        .row{
+            .kart{
+                box-shadow: 0px 0px 32px 0px rgba(122,122,122,0.1);
+                &:hover{
+                    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+                    transform: translateY(-10px);
+                    transition-duration: 1s;
+                }
+                .inner-wrapper{
+                    img{
+                        max-width: 100%;
+                        min-width: 100%;
+                        width: 350px;
+                    }
+                    .text{
+                        h3{
+                            text-align: left;
+                            margin-top: 30px;
+                            margin-bottom: 20px;
+                            margin-left: 20px;
+                            &:hover{
+                                color: $primary-c;
+                            }
+                        }
+                        .p{
+                            font-style: italic;
+                            color: #0b60a9;
+                            font-size: 16px;
+                            letter-spacing: 1px;
+                            margin-bottom: 10px;
+                            text-align: center;
+                        }
+                        ul{
+                            list-style-type: none;
+                            text-align: center;
+                            margin-top: 45px;
+                            margin-left: -49px;
+                            li{
+                                margin-left: 9px;
+                                display: inline-block;
+                                position: relative;
+                                &::before{
+                                    content: "";
+                                    border: 1px solid #fff;
+                                    background: #fff;
+                                    width: 40px;
+                                    height: 40px;
+                                    display: inline-block;
+                                    border-radius: 100%;
+                                    }
+                                &:hover{
+                                    
+                                   &::before{
+                                        background: #3b5998;
+                                   }
+                                    i{
+                                        color: #fff;}
+
+                                }
+                                a{
+                                    i{
+                                        position: absolute;
+                                        left: 14px;
+                                        bottom: 19px;
+                                        color: #6c757d;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row{
+            .custom-primary{
+                background: $primary-c;
+                color: #fff;
+                font-size: 14px;
+                line-height: 23px;
+                padding: 11px 35px;
+                margin-top: 40px;
+                width: 161px;
+                margin-bottom: 20px;
+                margin-left: -144%;
+                cursor: pointer;
+                display: inline-block;
+                font-weight: 500;
+                transition: all 0.3s ease 0s;
+                text-decoration: none;
+                    &:hover{
+                        background-color: #222;
+                        color: #fff;
+                        box-shadow: 0px 2px 7px 0px rgba(162, 160, 160, 0.54);
+                    }
+            }
+        }
+    }
+}

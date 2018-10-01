@@ -1,0 +1,73 @@
+#counter{
+    background-image: url("../img/counter/counter-bg.jpg");
+    height: 381px;
+    position: relative;
+    z-index: -2;
+    &::after{
+        content: "";
+        display: block;
+        background: rgba(31, 31, 31, 0.78);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+    }
+    .container{
+        .row{
+            .text{
+                margin-top: 17%;
+                h2{
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+                .spann{
+                    width: 80px;
+                    height: 1px;
+                    background: #0b60a9;
+                    display: inline-block;
+                }
+                p{
+                    color: #fff;
+                    margin-top: 27px;
+                }
+            }
+            .roww{
+                margin-top: 86px;
+            .counte{
+                .counter__single{
+                    width: 200px;
+                    .iconn{
+                        color: $primary-c;
+                        text-align: left;
+                        margin-left: 20px;
+                        display: inline;
+                        i{
+                            font-size: 35px;
+                            margin-top: 4px;
+                            display: inline-block;
+                        }
+                    }
+                    .count{  
+                            font-size: 40px;
+                            line-height: 1;
+                            margin-left: 10px;
+                            display: inline-block;
+                        span{     
+                       }
+                    }
+                    h3{
+                        margin-top: 16px;
+                        width: 170px;
+                        font-weight: 500;
+                        line-height: 1.5;
+                        font-size: 16px;
+                        margin-left: 24px;
+                    
+                    }
+                }
+            }}
+        }
+    }
+}

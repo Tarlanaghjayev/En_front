@@ -1,0 +1,51 @@
+#who_we_are{
+    margin-top: 110px;
+    .row{
+        .col-lg-6{
+            img{
+                max-width: 96%;
+            }
+        }
+        .col-lg-6{
+            .info{
+                padding: 28px 2px;
+                width: 646px;
+                display: inline-block;
+                h2{}
+                h5{}
+                p{}
+                ul{
+                    margin-left: -39px;
+                    list-style-type: none;
+                    li{
+                        &::before{
+                            content: "\f00c";
+                            font-family: 'Font Awesome 5 Free';
+                            margin-right: 15px;
+                            color: $primary-c;
+                            font-size: 13px;
+                            display: inline-block;
+                            margin-top: 0px;
+                            font-weight: 900;
+                        }
+                    }
+                }
+                a{          
+                    background: $primary-c;
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding: 11px 35px;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: 500;
+                    transition: all 0.3s ease 0s;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #222;
+                        color: #fff;
+                        box-shadow: 0px 2px 7px 0px rgba(162, 160, 160, 0.54);
+                    }}
+            }
+        }    }
+}

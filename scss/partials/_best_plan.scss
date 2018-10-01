@@ -1,0 +1,236 @@
+#best_plan{
+    position: relative;
+    height: 799px;
+    background: #e2e1e1;
+    .row{
+        h2{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 33px;
+            font-weight: 500;
+        }
+        .span{
+            width: 80px;
+            height: 3px;
+            background: $primary-c;
+            display: inline-block;
+            margin-left: 42%;
+            position: relative;
+            &::before{
+                width: 48px;
+                content: " ";
+                height: 3px;
+                background: $primary-c;
+                display: inline-block;
+                margin-left: 42%;
+                position: absolute;
+                top: 5px;
+                right: 16px;
+            }
+        }
+        .pp{
+            font-size: 16px;
+            max-width: 700px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 68px;            
+        }
+    }
+     
+
+     //card
+
+     .card{
+         border: none !important;
+     }
+     .crd1{
+         z-index: 2;
+         padding: 0;
+     }
+     .crd2{
+         z-index: 3;
+         padding: 0;
+     }
+     .crd3{
+         z-index: 2;
+         padding: 0;
+     }
+     .first-card{
+         padding: 0;
+        .card{
+            margin: 30px 0;
+            text-align: center;
+            box-shadow: 0 0 3px #ddd;
+            .card-header{
+                font-size: 25.5px;
+                font-weight: 500;
+                border-bottom: none;
+                text-transform: uppercase;
+            }
+            .card-body{
+                text-align: center;
+                h5{
+                    display: inline;
+                    font-size: 71px;
+                    font-weight: 600;
+                }
+                .card-title{
+                    text-align: center;
+                }
+                .custom-primary{
+                    background: #0b60a9;
+                    color: #fff;
+                    font-size: 20px;
+                    line-height: 23px;
+                    padding: 11px 35px;
+                    margin-top: 40px;
+                    width: 137px;
+                    margin-bottom: 20px;
+                    margin-left: 0%;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: 500;
+                    transition: all 0.3s ease 0s;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #222;
+                        color: #fff;
+                        box-shadow: 0px 2px 7px 0px rgba(162, 160, 160, 0.54);
+                    }
+            }
+                .spann{
+                    font-size: 26px;
+                    margin-top: -54px;
+                    position: relative;
+                    top: 43px;
+                    left: -69px;
+                    font-weight: 600;
+                    text-align: center;
+                    display: inherit;
+                }
+                .pricing{
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    text-align: left;
+                    margin: 20px 25px;
+                    li{
+                        margin-bottom: 10px;
+                    }
+                    i{
+                        margin-right: 15px;
+                        color: #0b60a9;
+                    }
+                    i.icon-disable{
+                        color: #ddd;
+                    }
+                }
+                a{
+                    margin: 12px 0px;
+                }
+            }
+        }
+     }
+     .second-card{
+        padding: 0;
+        .card{
+            text-align: center;
+            padding-bottom: 40px;
+            margin-top: -5px;
+            border: none;
+            box-shadow: 0 0 50px 0 rgba(0,0,0,.07);
+            .card-header{
+                font-size: 25.5px;
+                font-weight: 500;
+                border-bottom: none;
+                background-color: #0b60a9;
+                color: #fff;
+                text-transform: uppercase;
+                .ribbon{
+                    position: absolute;
+                    top: 0;
+                    left: auto;
+                    right: 0;
+                    transform: rotate(90deg);
+                    width: 150px;
+                    overflow: hidden;
+                    height: 150px;
+                    h4{
+                        background-color: #fff;
+                        margin-top: 38px;
+                        transform: translateY(-50%) translateX(-50%) translateX(38px) rotate(-45deg);
+                        color: black;
+                        font-size: 13px;
+                        line-height: 3em;
+                        letter-spacing: 1px;
+                        box-shadow: 0 0 10px 0 rgba(0,0,0,.29);
+                        text-align: center;
+                        text-transform: initial;
+                    }
+                }
+            }
+            .card-body{
+                text-align: center;
+                h5{
+                    display: inline;
+                    font-size: 71px;
+                    font-weight: 600;
+                }
+                .custom-primary{
+                    background: #0b60a9;
+                    color: #fff;
+                    font-size: 20px;
+                    line-height: 23px;
+                    padding: 11px 35px;
+                    margin-top: 40px;
+                    width: 137px;
+                    margin-bottom: 20px;
+                    margin-left: 0%;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: 500;
+                    transition: all 0.3s ease 0s;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #222;
+                        color: #fff;
+                        box-shadow: 0px 2px 7px 0px rgba(162, 160, 160, 0.54);
+                    }
+            }
+                .spann{
+                    font-size: 26px;
+                    margin-top: -54px;
+                    position: relative;
+                    top: 43px;
+                    left: -69px;
+                    font-weight: 600;
+                    text-align: center;
+                    display: inherit;
+                }
+                .pricing{
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    text-align: left;
+                    margin: 40px 25px;
+                    li{
+                        margin-bottom: 10px;
+                    }
+                    i{
+                        margin-right: 15px;
+                        color: #0b60a9;
+                    }
+                    i.icon-disable{
+                        color: #0b60a9;
+                    }
+                }
+                a{
+                    margin: 12px 0px;
+                }
+            }
+        }
+
+     }
+     
+}

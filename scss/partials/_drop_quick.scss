@@ -1,0 +1,98 @@
+#drop_quick{
+    background: #f6f8f9;
+    .kart{
+        background: #fff;
+        margin-top: 28px;
+        padding: 18px;
+        height: 573px;
+
+        .kart_1{
+            text-align: left;
+            h3{}
+            p{}
+        }
+        .kart_2{
+            input{
+                display: block;
+                padding: 10px 20px;
+                width: 450px;
+                border: 1px solid #e7e7e7;
+                margin-top: 20px;
+            }
+            textarea{
+                margin-top: 20px;
+                width: 450px;
+                max-width: 100%;
+            }
+            a{
+                background: #0b60a9;
+                color: #fff;
+                font-size: 13px;
+                text-align: center;
+                margin-left: 13px;
+                line-height: 23px;
+                padding: 11px 35px;
+                margin-top: 40px;
+                width: 161px;
+                margin-bottom: 20px;
+                cursor: pointer;
+                display: inline-block;
+                font-weight: 400;
+                transition: all 0.3s ease 0s;
+                text-decoration: none;
+                &:hover{
+                    background-color: #222;
+                    color: #fff;
+                    box-shadow: 0px 2px 7px 0px rgba(162, 160, 160, 0.54);
+                }
+            }
+        }
+    }
+    .kart_3{
+        background: #fff;
+        margin-top: 26px;
+        padding: 24px;
+        h3{}
+        span{
+            display: block;
+            margin-top: 18px;
+            color: #888;
+            i{
+                font-size: 14px;
+                padding-right: 10px;
+                color: #222;
+                border: 1px solid #ddd;
+                display: inline-block;
+                text-align: center;
+                padding: 12px;
+                height: 40px;
+                width: 40px;
+                margin-right: 10px;
+                border-radius: 100%;
+            }
+            .fa-phone{
+                &::before{
+                    content: "\f095";
+                }
+            }
+            .fa-envelope{
+                &::before{
+                    content: "\f0e0";
+                }
+            }
+            .fa-map-marker-alt{
+                &::before{
+                    content: "\f3c5";
+                }
+            }
+        }
+    }
+    .kart_4{
+        .contact-map{
+            width: 100px;
+            max-width: 100%;
+            min-width: 100%;
+            
+        }
+    }
+}

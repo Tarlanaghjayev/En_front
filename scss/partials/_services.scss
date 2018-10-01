@@ -1,0 +1,92 @@
+#services{
+    margin-top: 110px;
+    background-image: url(../img/services/features-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container{
+        .row{
+            .services{
+                .row{
+                    margin-top: 163px;
+                    margin-bottom: 130px;
+                    .kart{
+                        padding: 25px 0px;
+                        a{
+                            float: left;
+                            .fa-wallet{
+                                font-size: 30px;
+                                color: $primary-c;
+                                &::before{
+                                    content: "\f555";
+                                    border: 1px solid #fff;
+                                    background: #fff;
+                                    width: 80px;
+                                    height: 80px;
+                                    display: inline-block;
+                                    text-align: center;
+                                    line-height: 75px;
+                                    border-radius: 100%;
+                                }
+                            }
+                            .fa-chart-line{
+                                font-size: 30px;
+                                color: $primary-c;
+                                &::before{
+                                    content: "\f201";
+                                    border: 1px solid #fff;
+                                    background: #fff;
+                                    width: 80px;
+                                    height: 80px;
+                                    display: inline-block;
+                                    text-align: center;
+                                    line-height: 75px;
+                                    border-radius: 100%;
+                                }
+                            }
+                            .fa-briefcase{
+                                font-size: 30px;
+                                color: $primary-c;
+                                &::before{
+                                    content: "\f0b1";
+                                    border: 1px solid #fff;
+                                    background: #fff;
+                                    width: 80px;
+                                    height: 80px;
+                                    display: inline-block;
+                                    text-align: center;
+                                    line-height: 75px;
+                                    border-radius: 100%;
+                                }
+                            }
+                            .fa-user{
+                                font-size: 30px;
+                                color: $primary-c;
+                                &::before{
+                                    content: "\f007";
+                                    border: 1px solid #fff;
+                                    background: #fff;
+                                    width: 80px;
+                                    height: 80px;
+                                    display: inline-block;
+                                    text-align: center;
+                                    line-height: 75px;
+                                    border-radius: 100%;
+                                }
+                            }
+                            
+                        }
+                        .text{
+                            margin-left: 108px;
+                            h3{
+                                &:hover{
+                                    color: $primary-c;
+                                }
+                            }
+                            p{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
